@@ -1,0 +1,17 @@
+future: true
+permalink: /:title/
+url: http://hujunnan.github.io
+name: Hu Junnan
+author: Hu Junnan
+qq: 940704247
+email: sunny940704247@qq.com
+
+duoshuo: Hu Junnan
+beian: 
+cnzz: 
+weibo: 
+github: https://github.com/hujunnan
+about: "这里是 June 的个人博客，创建于 2018 年。"
+
+safe: true
+paginate: 20
