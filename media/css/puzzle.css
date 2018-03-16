@@ -1,0 +1,568 @@
+body {
+	box-shadow: inset 0px 0px 1600px grey;
+}
+#all {
+	position: relative;
+	width: 700px;
+	height: 630px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	overflow: hidden;
+	box-shadow: inset 0 0 100px grey, 0 0 10px grey;
+}
+
+h1 {
+	box-shadow: inset 0 0 10px grey;
+}
+
+#help {
+	box-shadow: inset 0 0 70px grey;
+	position: relative;
+	top: -20px;
+	width: 200px;
+	height: 440px;
+	overflow: hidden;
+	font-size: 14pt;
+}
+
+#initial {
+	box-shadow: 0 0 4px black;
+	position: relative;
+	left: 25px;
+	top: 25px;
+	width: 150px;
+	height: 150px;
+	background-size: contain;
+}
+#choice {
+	position: relative;
+	top: 40px;
+	margin: 5px;
+}
+#four {
+ 	margin-right: auto;
+ 	margin-left: auto;
+	height: 20px;
+	width: 150px;
+	transform: rotate(-5deg);
+	box-shadow: -2px -2px 4px grey, 0 0 4px grey;
+}
+#four:hover {
+	transform: scale(1.1);
+	z-index: 1;
+}
+#three {
+	position: relative;
+	top: 5px;
+	margin-right: auto;
+ 	margin-left: auto;
+	height: 20px;
+	width: 150px;
+	transform: rotate(5deg);
+	box-shadow: -2px -2px 4px grey, 0 0 4px grey;	
+}
+#three:hover {
+	transform: scale(1.1);
+	z-index: 1;
+}
+#restart {
+	position: relative;
+	top: 50px;
+	margin-right: auto;
+ 	margin-left: auto;
+	height: 20px;
+	width: 150px;
+	transform: rotate(-5deg);
+	box-shadow: -2px -2px 4px grey, 0 0 4px grey;
+}
+#restart:hover {
+	transform: scale(1.1);
+	z-index: 1;
+}
+#conner{
+	position: absolute;
+	left: 54px;
+	top: 295px;
+	width: 100px;
+	height: 90px;
+	box-shadow: -2px -2px 18px grey;
+	transform: rotate(-10deg);
+	font-size: 11pt; 
+}
+#conner:hover {
+	transform: scale(1.1);
+	z-index: 1;
+}
+#picture {
+	border: 1px solid black;
+	width: 356px;
+	height: 356px;
+	position: absolute;
+	top: 80px;
+	left: 250px;
+}
+
+#main {
+	width: 356px;
+	height: 356px;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	vertical-align: top;
+	box-shadow: inset 0 0 376px lightgray, 0px 0px 4px black, inset 0 0 3px black;
+}
+
+#model{
+	border: 1px solid red;
+	width: 356px;
+	height: 356px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#tips {
+	position: absolute;
+	top: 440px;
+	left: 250px;
+	width: 356px;
+	height: 50px;
+	font-size: 22pt;
+	font-family: cursive;
+}
+.youwin {
+	display: none;
+}
+/*4x4*/
+.pic {
+	position: absolute;
+	border: 1px solid lightgray;
+	width: 87px;
+	height: 87px;
+	background: url("../pic/panda.jpg") no-repeat;
+	transition: all 0.1s;
+	box-shadow: 1px 1px 4px gray;
+}
+.pic:hover {
+	z-index: 1;
+	transform: scale(1.1);
+	box-shadow: 2px 2px 4px gray;
+}
+
+/*4列*/
+.top1 {
+	top: 0px;
+}
+
+.top2 {
+	top: 89px;
+}
+
+.top3 {
+	top: 178px;
+}
+
+.top4 {
+	top: 267px;
+}
+
+/*4行*/
+.left1 {
+	left: 0px;
+}
+
+.left2 {
+	left: 89px;
+}
+
+.left3 {
+	left: 178px;
+
+}
+
+.left4 {
+	left: 267px;
+}
+
+/*background*/
+#bac1 {
+	background-position: 0px 0px;
+}
+
+#bac2 {
+	background-position: -87px 0px;
+}
+
+#bac3 {
+	background-position: -174px 0px;
+}
+
+#bac4 {
+	background-position: -261px 0px;
+}
+
+#bac5 {
+	background-position: 0px -87px;
+}
+
+#bac6 {
+	background-position: -87px -87px;
+}
+
+#bac7 {
+	background-position: -174px -87px;
+}
+
+#bac8 {
+	background-position: -261px -87px;
+}
+
+#bac9 {
+	background-position: 0px -174px;
+}
+
+#bac10 {
+	background-position: -87px -174px;
+}
+
+#bac11 {
+	background-position: -174px -174px;
+}
+
+#bac12 {
+	background-position: -261px -174px;
+}
+
+#bac13 {
+	background-position: 0px -261px;
+}
+
+#bac14 {
+	background-position: -87px -261px;
+}
+
+#bac15 {
+	background-position: -174px -261px;
+}
+
+/*5x5*/
+.pic0 {
+	position: absolute;
+	border: 1px solid lightgray;
+	width: 69.2px;
+	height: 69.2px;
+	background: url("../pic/huge6.jpg") no-repeat;
+	transition: all 0.1s;
+	box-shadow: 1px 1px 4px gray;
+}
+.pic1 {
+	position: absolute;
+	border: 1px solid lightgray;
+	width: 69.2px;
+	height: 69.2px;
+	background: url("../pic/huge1.jpg") no-repeat;
+	transition: all 0.1s;
+	box-shadow: 1px 1px 4px gray;
+}
+.pic2 {
+	position: absolute;
+	border: 1px solid lightgray;
+	width: 69.2px;
+	height: 69.2px;
+	background: url("../pic/huge2.jpg") no-repeat;
+	transition: all 0.1s;
+	box-shadow: 1px 1px 4px gray;
+}
+.pic3 {
+	position: absolute;
+	border: 1px solid lightgray;
+	width: 69.2px;
+	height: 69.2px;
+	background: url("../pic/huge3.jpg") no-repeat;
+	transition: all 0.1s;
+	box-shadow: 1px 1px 4px gray;
+}
+.pic4 {
+	position: absolute;
+	border: 1px solid lightgray;
+	width: 69.2px;
+	height: 69.2px;
+	background: url("../pic/huge4.jpg") no-repeat;
+	transition: all 0.1s;
+	box-shadow: 1px 1px 4px gray;
+}
+.pic5 {
+	position: absolute;
+	border: 1px solid lightgray;
+	width: 69.2px;
+	height: 69.2px;
+	background: url("../pic/huge5.jpg") no-repeat;
+	transition: all 0.1s;
+	box-shadow: 1px 1px 4px gray;
+}
+.pic0:hover {
+	z-index: 1;
+	transform: scale(1.1);
+	box-shadow: 2px 2px 4px gray;
+}
+.pic1:hover {
+	z-index: 1;
+	transform: scale(1.1);
+	box-shadow: 2px 2px 4px gray;
+}
+.pic2:hover {
+	z-index: 1;
+	transform: scale(1.1);
+	box-shadow: 2px 2px 4px gray;
+}
+.pic3:hover {
+	z-index: 1;
+	transform: scale(1.1);
+	box-shadow: 2px 2px 4px gray;
+}
+.pic4:hover {
+	z-index: 1;
+	transform: scale(1.1);
+	box-shadow: 2px 2px 4px gray;
+}
+.pic5:hover {
+	z-index: 1;
+	transform: scale(1.1);
+	box-shadow: 2px 2px 4px gray;
+}
+/*5列*/
+.toptwo1 {
+	top: 0px;
+}
+
+.toptwo2 {
+	top: 71.2px;
+}
+
+.toptwo3 {
+	top: 142.4px;
+}
+
+.toptwo4 {
+	top: 213.6px;
+}
+
+.toptwo5 {
+	top: 284.8px;
+}
+
+/*5行*/
+.lefttwo1 {
+	left: 0px;
+}
+
+.lefttwo2 {
+	left: 71.2px;
+}
+
+.lefttwo3 {
+	left: 142.4px;
+}
+
+.lefttwo4 {
+	left: 213.6px;
+}
+
+.lefttwo5 {
+	left: 284.8px;
+}
+
+/*background*/
+#bactwo1 {
+	background-position: 0px 0px;
+}
+
+#bactwo2 {
+	background-position: -69.2px 0px;
+}
+
+#bactwo3 {
+	background-position: -138.4px 0px;
+}
+
+#bactwo4 {
+	background-position: -207.6px 0px;
+}
+
+#bactwo5 {
+	background-position: -276.8px 0px;
+}
+
+#bactwo6 {
+	background-position: 0px -69.2px;
+}
+
+#bactwo7 {
+	background-position: -69.2px -69.2px;
+}
+
+#bactwo8 {
+	background-position: -138.4px -69.2px;
+}
+
+#bactwo9 {
+	background-position: -207.6px -69.2px;
+}
+
+#bactwo10 {
+	background-position: -276.8px -69.2px;
+}
+
+#bactwo11 {
+	background-position: 0px -138.4px;
+}
+
+#bactwo12 {
+	background-position: -69.2px -138.4px;
+}
+
+#bactwo13 {
+	background-position: -138.4px -138.4px;
+}
+
+#bactwo14 {
+	background-position: -207.6px -138.4px;
+}
+
+#bactwo15 {
+	background-position: -276.8px -138.4px;
+}
+
+#bactwo16 {
+	background-position: 0px -207.6px;
+}
+
+#bactwo17 {
+	background-position: -69.2px -207.6px;
+}
+
+#bactwo18 {
+	background-position: -138.4px -207.6px;
+}
+
+#bactwo19 {
+	background-position: -207.6px -207.6px;
+}
+
+#bactwo20 {
+	background-position: -276.8px -207.6px;
+}
+
+#bactwo21 {
+	background-position: 0px -276.8px;
+}
+
+#bactwo22 {
+	background-position: -69.2px -276.8px;
+}
+
+#bactwo23 {
+	background-position: -138.4px -276.8px;
+}
+
+#bactwo24 {
+	background-position: -207.6px -276.8px;
+}
+
+.win {
+	background: url("../pic/panda.jpg");
+	background-size: contain; 
+}
+
+.win0 {
+	background: url("../pic/huge6.jpg");
+	background-size: contain;
+}
+.win1 {
+	background: url("../pic/huge1.jpg");
+	background-size: contain;
+}
+.win2 {
+	background: url("../pic/huge2.jpg");
+	background-size: contain;
+}
+.win3 {
+	background: url("../pic/huge3.jpg");
+	background-size: contain;
+}
+.win4 {
+	background: url("../pic/huge4.jpg");
+	background-size: contain;
+}
+.win5 {
+	background: url("../pic/huge5.jpg");
+	background-size: contain;
+}
+
+.photo {
+	width: 80px;
+	height: 80px;
+	float: left;
+	box-shadow:  inset 0px 0px 16px black, 0px 0 14px black;
+}
+#picture1 {
+	background: url("../pic/huge6.jpg");
+	background-size: contain;
+	margin-top: 25px;
+	margin-left: 25px;
+	transform: rotate(-15deg);
+}
+#picture1:hover {
+	transform: scale(1.1);
+}
+#picture2 {
+	background: url("../pic/huge1.jpg");
+	background-size: contain;
+	margin-top: 5px;
+	margin-left: 30px;
+	transform: rotate(15deg);
+}
+#picture2:hover {
+	transform: scale(1.1);
+}
+#picture3 {
+	background: url("../pic/huge2.jpg");
+	background-size: contain;
+	margin-top: 15px;
+	margin-left: 30px;
+	transform: rotate(-15deg);
+}
+#picture3:hover {
+	transform: scale(1.1) rotate(-160deg);
+}
+#picture4 {
+	background: url("../pic/huge3.jpg");
+	background-size: contain;
+	margin-top: 25px;
+	margin-left: 30px;
+	transform: rotate(15deg);
+}
+#picture4:hover {
+	transform: scale(1.1);
+}
+#picture5 {
+	background: url("../pic/huge4.jpg");
+	background-size: contain;
+	margin-top: 10px;
+	margin-left: 30px;
+	transform: rotate(-15deg);
+}
+#picture5:hover {
+	transform: scale(1.1);
+}
+#picture6 {
+	background: url("../pic/huge5.jpg");
+	background-size: contain;
+	margin-top: 10px;
+	margin-left: 30px;
+	transform: rotate(16deg);
+}
+#picture6:hover {
+	transform: scale(1.1);
+}
