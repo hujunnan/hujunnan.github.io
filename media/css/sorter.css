@@ -1,0 +1,42 @@
+body {
+	width: 500px;
+	height: 400px;
+	padding-left: 10px;
+	margin: auto;
+	box-shadow: 10px 10px 60px rgb(190, 190, 190);
+}
+table, th, td{
+	border: 1px solid rgb(191,191,193);
+}
+
+table {
+	border-collapse: collapse;
+	text-align: left;
+}
+
+#todo td, #todo th {
+	padding-right: 10px;
+	padding-left: 3px;
+}
+
+#staff td, #staff th {
+	padding-right: 25px;
+	padding-left: 3px;
+}
+
+th {
+	background-color: rgb(4,26,126);
+	color: white;
+}
+
+.ascend {
+	background: url('../pic/ascend.png') no-repeat right rgb(167,177,255);
+}
+
+.descend {
+	background: url('../pic/descend.png') no-repeat right rgb(167,177,255);
+}
+
+.alternate {
+	background: rgb(221, 221, 221);
+}
