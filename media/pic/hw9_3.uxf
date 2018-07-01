@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLHierarchy</id>
+    <coordinates>
+      <x>50</x>
+      <y>40</y>
+      <w>350</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>type=Package
+root
+	Models
+		Room
+		Reservation
+	View
+		CreatReservationPage
+		ReservationDetailPage
+	Control
+		MakeReservation</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
